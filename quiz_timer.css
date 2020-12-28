@@ -52,14 +52,9 @@ body{
    background-color: #28df99;
 }
 
-#countdown-number{
-    border-radius: 50%;
-    color: #fff;
-    padding: 10%;
-    font-size: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text-success {
+    color: #28df99!important;
+    margin: 10%;
 }
 
 @media screen and (max-width:576px){
