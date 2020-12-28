@@ -57,6 +57,9 @@ body{
     color: #fff;
     padding: 10%;
     font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:576px){
