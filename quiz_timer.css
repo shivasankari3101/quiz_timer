@@ -4,6 +4,9 @@ body{
     padding: 0;
     background-color:#28df99;
     font-family: "Open Sans", sans-serif;
+    background:url("images/quiz_timer.svg");
+    background-position:80%;
+    background-size: cover;
 }
 
 #timer{
@@ -24,7 +27,7 @@ body{
     width: 20vw;
     height: 40vh;
     z-index: 0;
-    background-color: #99f3bd;
+    background-image: linear-gradient(45deg,#d0f224,#E5E5E5);
     border-radius: 15px;
 }
 
@@ -37,10 +40,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #fff;
     z-index: 1;
     border-radius: 15px;
-    color: #cc7351;
+    color: rgba(0,0,0,0.5);
 }
 
 .countdown{
@@ -49,11 +52,11 @@ body{
     padding: 2%;
     margin: 10%;
     border-radius: 50%;
-   background-color: #28df99;
+
 }
 
 .text-success {
-    color: #28df99!important;
+    color: #d0f224!important;
     margin: 10%;
 }
 
